@@ -297,7 +297,7 @@ while operador != 0:
 
             case 5:
                 print("========================================")
-                print("     === Estatísticas === ");
+                print("     === Estatísticas === ")
                 print("========================================")
 
                 if (soma > 0):
@@ -312,6 +312,25 @@ while operador != 0:
                     print(" Não há gastos registados para gerar estatísticas. ")
                     operador = 1
 
+                print("========================================")
+                print("     === Gráfico === ")
+                print("========================================")
+
+                if len(listaGastos) > 0:
+
+                    for r in range(len(listaGastos)):
+
+                        print(f"{listaGastos[r]}: ", end = "")
+
+                        barra = int(listaValorGastos[r]/10)
+
+                        for a in range(barra):
+                            print("█", end = "")
+                        print("\n")
+                    
+                else:
+                    print("Não podemos montar os Gráficos")
+                    
             case 6:
                 print("Até Mais")
                 operador = 0
