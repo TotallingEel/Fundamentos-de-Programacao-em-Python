@@ -1,4 +1,5 @@
 Fundamentos de Programação em Python
+<br>
 Este repositório funciona como o meu diário de bordo online, criado para centralizar, versionar e acompanhar a evolução dos meus estudos e códigos em Python.
 
 O objetivo principal não é buscar a perfeição absoluta de código logo de início, mas sim documentar o meu progresso prático na programação procedural e na resolução de problemas computacionais.
