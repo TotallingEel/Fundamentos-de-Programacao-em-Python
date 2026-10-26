@@ -7,7 +7,7 @@ O objetivo principal não é buscar a perfeição absoluta de código logo de in
 
 📂 Organização do Repositório
 
-Evolução de Linguagens: Este repositório foca-se atualmente em Python, complementando os meus estudos anteriores e paralelos na linguagem C.
+Evolução de Linguagens: Este repositório foca-se atualmente em **Python**, dividindo espaço com o meu estudo em **C** e o (esquecível) **JavaScript** — mantendo o malabarismo entre estudar estas três linguagens e garantir tempo para a rotina gamer
 
 Projetos e Algoritmos: Abriga scripts desenvolvidos do zero — desde lógica procedural básica até implementações matemáticas aplicadas (como manipulação de matrizes e algoritmos lineares).
 
