@@ -11,6 +11,10 @@ Evolução de Linguagens: Este repositório foca-se atualmente em Python, comple
 
 Projetos e Algoritmos: Abriga scripts desenvolvidos do zero — desde lógica procedural básica até implementações matemáticas aplicadas (como manipulação de matrizes e algoritmos lineares).
 
+🛠️ Ferramentas e Metodologia
+
+**Prática Diária:** Resolução de exercícios e consolidação de lógica através de plataformas interativas como o **App Mimo**.
+
 📚 Recomendações de Leitura
 
 As principais referências bibliográficas que fundamentam estes estudos:
