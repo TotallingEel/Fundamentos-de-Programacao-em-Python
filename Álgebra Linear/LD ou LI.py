@@ -13,8 +13,42 @@ Objetivo: Análise algorítmica e estudo da dependência e independência entre 
 """
 
 # Código para LD e LI de vetores R3
+
+def entradaR3():
+  i = 0
+  j = 0
+
+  u = []
+  v = []
+
+  print("Digite as componentes do primeiro vetor: ")
+  while i != 3:
+
+    u.append(float(input(f"Componente {i+1}: ")))
+    i += 1
+
+  print()
+
+  print("Digite as componentes do segundo vetor: ")
+  while j !=3:
+
+    v.append(float(input(f"Componente {j+1}: ")))
+    j += 1
+
+  return u, v
+
+print()
+
 def nomenclatura(vetores1, vetores2):
-    
+
+  for i, u in enumerate(vetores1, start = 0):
+    print(f"{i}. {u}")
+
+  print()
+
+  for j, v in enumerate(vetores2, start = 0):
+    print(f"{j}. {v}")
+
   XY = vetores1[0] * vetores2[1] == vetores1[1] * vetores2[0]
   YZ = vetores1[1] * vetores2[2] == vetores1[2] * vetores2[1]
   XZ = vetores1[0] * vetores2[2] == vetores1[2] * vetores2[0]
@@ -24,27 +58,8 @@ def nomenclatura(vetores1, vetores2):
   else:
     return "L.I" 
 
-A = [2, 4, 6] # A = [x, y, z]
-B = [4, 8 , 12]
-
-C = [2, 4, 6]
-D = [4, 8, 12]
-
-vetoresAB = [
-B[0] - A[0], ## B-A = [4 - 2] = [2]
-B[1] - A[1], ## B-A = [8 - 4] = [4]
-B[2] - A[2]  ## B-A = [12 - 6] =[6]
-]
-
-vetoresCD = [
-D[0] - C[0],
-D[1] - C[1],
-D[2] - C[2]
-]
-
-print(f"Resultado: {vetoresAB}")
-print(f"Resultado: {vetoresCD}")
-print(f"Resultado: {nomenclatura(vetoresAB, vetoresCD)}")
+u, v = entradaR3()
+print(f"Resultado: {nomenclatura(u, v)}")
 
 print()
 
@@ -64,9 +79,37 @@ def nomenclaturaR3(v1, v2, v3):
   else:
     return "L.I"
 
-a = [1, 0, 7]
-b = [5, 9, 3]
-c = [6, 4, 8]
+a = []
+b = []
+c = []
+
+contador1 = 0
+contador2 = 0
+contador3 = 0
+
+print("Digite as componentes do primeiro vetor: ")
+while contador1 != 3:
+
+  a.append(float(input(f"Componente {contador1 + 1}: ")))
+  contador1 += 1
+
+print()
+
+print("Digite as componentes do segundo vetor: ")
+while contador2 !=3:
+
+  b.append(float(input(f"Componente {contador2 + 1}: ")))
+  contador2 += 1
+
+print()
+
+print("Digite as componentes do terceiro vetor: ")
+while contador3 != 3:
+
+  c.append(float(input(f"Componente {contador3 + 1}: ")))
+  contador3 += 1
+
+print()
 
 resultado = nomenclaturaR3(a, b, c)
 
